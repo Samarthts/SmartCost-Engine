@@ -1,0 +1,102 @@
+import { SupplierRecord } from '../types';
+
+export const SUPPLIERS: SupplierRecord[] = [
+  {
+    id: 'tvh-sup-01',
+    name: 'PrecisionForge Autotech Ltd.',
+    regionId: 'india-hub',
+    regionName: 'India',
+    city: 'Bengaluru / Peenya Industrial Corridor',
+    certifications: ['IATF 16949', 'ISO 9001:2015', 'ISO 14001'],
+    auditedRating: 4.9,
+    capacityUtilization: 68,
+    onTimeDeliveryRate: 98.4,
+    quotedShouldCostDelta: -1.8,
+    specialties: ['5-Axis High-Speed Milling', 'HPDC Aluminum Casting', 'Deep Bore Honing', 'CMM Inspection'],
+    contactEmail: 'sourcing@precisionforge-india.com'
+  },
+  {
+    id: 'tvh-sup-02',
+    name: 'Jaipur Precision Dynamics',
+    regionId: 'india-hub',
+    regionName: 'India',
+    city: 'Jaipur Industrial Corridor',
+    certifications: ['IATF 16949', 'ISO 9001:2015'],
+    auditedRating: 4.8,
+    capacityUtilization: 72,
+    onTimeDeliveryRate: 97.8,
+    quotedShouldCostDelta: -3.2,
+    specialties: ['High-Volume Precision Turning', 'Automotive Joint Housings', 'Heat Treatment Annealing'],
+    contactEmail: 'rfq@jaipurprecision.in'
+  },
+  {
+    id: 'tvh-sup-03',
+    name: 'MexiMachining Vanguard S.A. de C.V.',
+    regionId: 'mexico-hub',
+    regionName: 'Mexico',
+    city: 'Monterrey, Nuevo León Nearshore Hub',
+    certifications: ['IATF 16949', 'ISO 9001:2015', 'AS9100D'],
+    auditedRating: 4.9,
+    capacityUtilization: 62,
+    onTimeDeliveryRate: 99.2,
+    quotedShouldCostDelta: +1.2,
+    specialties: ['JIT Fast-Turn CNC', 'USMCA Duty-Free Logistics', 'Polymer Injection Tooling', 'Anodizing Lines'],
+    contactEmail: 'sales@meximachining-monterrey.mx'
+  },
+  {
+    id: 'tvh-sup-04',
+    name: 'Querétaro Aerospace & Automotive Machining',
+    regionId: 'mexico-hub',
+    regionName: 'Mexico',
+    city: 'Querétaro Aerospace Cluster',
+    certifications: ['AS9100D', 'IATF 16949', 'NADCAP'],
+    auditedRating: 4.9,
+    capacityUtilization: 75,
+    onTimeDeliveryRate: 98.9,
+    quotedShouldCostDelta: +2.5,
+    specialties: ['Titanium Machining', 'Coordinate Measuring (CMM)', 'Hydraulic Manifold Testing'],
+    contactEmail: 'procurement@queretaro-machining.com'
+  },
+  {
+    id: 'tvh-sup-05',
+    name: 'Mekong Precision Polymers & Metals',
+    regionId: 'vietnam-hub',
+    regionName: 'Vietnam',
+    city: 'Hai Phong Precision Industrial Park',
+    certifications: ['ISO 9001:2015', 'ISO 13485'],
+    auditedRating: 4.7,
+    capacityUtilization: 58,
+    onTimeDeliveryRate: 96.5,
+    quotedShouldCostDelta: -2.4,
+    specialties: ['High-Cavitation Injection Molds', 'Swiss CNC Lathes', 'DuPont Zytel Processing'],
+    contactEmail: 'vietnam-rfq@mekongprecision.vn'
+  },
+  {
+    id: 'tvh-sup-06',
+    name: 'Great Lakes Advanced CNC Manufacturing',
+    regionId: 'usa-hub',
+    regionName: 'United States',
+    city: 'Cleveland / Detroit Manufacturing Belt',
+    certifications: ['ITAR Registered', 'AS9100D', 'ISO 9001:2015'],
+    auditedRating: 5.0,
+    capacityUtilization: 82,
+    onTimeDeliveryRate: 99.7,
+    quotedShouldCostDelta: +18.4,
+    specialties: ['Defense Prototyping', 'Rapid 3-Day Turnaround', '5-Axis Simultaneous Milling'],
+    contactEmail: 'quotes@greatlakes-cnc.com'
+  },
+  {
+    id: 'tvh-sup-07',
+    name: 'Ningbo Delta Tooling & Die-Cast Corp',
+    regionId: 'china-hub',
+    regionName: 'China',
+    city: 'Ningbo Industrial Port Zone',
+    certifications: ['IATF 16949', 'ISO 9001:2015'],
+    auditedRating: 4.6,
+    capacityUtilization: 65,
+    onTimeDeliveryRate: 95.8,
+    quotedShouldCostDelta: -6.8,
+    specialties: ['Hardened Steel Tooling Molds', 'Automated Die Casting', 'Surface Plating'],
+    contactEmail: 'export@ningbo-diecast.com'
+  }
+];

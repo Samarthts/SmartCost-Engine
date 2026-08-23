@@ -1,0 +1,6 @@
+{
+  "name": "SmartCost Engine",
+  "description": "Executive-grade 3D CAD mesh analyzer, real-time 8-pillar should-cost breakdown, cross-border regional sourcing logic, Scope 3 carbon tracker, and AI DFM sourcing co-pilot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
